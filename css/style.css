@@ -1,0 +1,303 @@
+@charset "utf-8";
+html{
+  font-size: 100%;
+}
+body{
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", cursive;
+  line-height: 1.7;
+  background-color: #ded2bf; /* 淡い橙色 */
+}
+/* ページトップに戻る */ /* iconは波 */  /* 波が海に帰るイメージ */
+body.is-fixed-pagetop .nav-coral-pagetop a {
+	display: block;text-decoration: none;text-align: center;position: fixed;animation-name: opa1;animation-duration: 1s;animation-fill-mode: forwards;
+	width: 60px;
+	line-height: 60px;
+	bottom: 0;
+	right: 0px;
+  font-size: 40px;
+	background: #b35f32;
+	color: #fff;
+	border-radius: 50%;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+h2{
+  font-size: 24px;
+  color: #b35f32;
+}
+h1{
+  font-size: 24px;
+  color: #b35f32;
+}
+/* header */
+.logo{
+  width: 250px;
+  margin-top: 10px;
+}
+.main-nav {
+  display: flex;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 20px;
+  text-transform: uppercase; /* 全てを大文字に変換 */
+  margin-top: 50px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 35px;
+}
+.main-nav a {
+  color: #b35f32;
+}
+.main-nav a:hover {
+  color: #f5b1aa; /* 珊瑚色 */ /* 珊瑚の島 */ /* 暖かい珊瑚色へ */
+}
+.header {
+  display: flex;
+  justify-content: space-between; /* 均等に配置 */
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* home */
+
+/* 地図 */
+.map p{
+  margin: 0 auto;
+  width: 1000px;
+}
+/* サイト文 */
+.mane1{
+  margin-top: 60px;
+  text-align: center;
+  color: #b35f32;
+  font-size: 24px;
+  font-family: 'Fredericka the Great', cursive;
+}
+.mane2{
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.mane3{
+  color: #f5b1aa;
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  background-color: #f5f2e5;
+}
+/* 写真 */
+.grid{
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.grid img{
+  border-radius: 50%;
+}
+.nomal{
+  color: #b35f32;    /* 通常の時の色 */   /* 琥珀色 */  /* 透き通るような美しさ */
+  font-size: 24px;
+}
+/* 説明文 */
+.mane4{
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: left;
+  line-height: 15px;
+}
+/* youtube配置 */
+iframe{
+  border-radius: 5%;
+}
+.video{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.tex1{
+  text-align: left;
+  font-weight: bold;
+  margin-left: 160px;
+}
+.tex01{
+  text-align: left;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 24px;
+  margin-left: 160px;
+  color: #b35f32;
+}
+.wrapper1{
+  margin-top: 150px;
+}
+/* フッター */
+.main1-nav {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 20px;
+  text-transform: uppercase; /* 全てを大文字に変換 */
+  margin-top: 150px;
+  list-style: none;
+}
+.main1-nav li {
+  margin-left: 35px;
+}
+.main1-nav a {
+  color: #b35f32;
+}
+.main1-nav a:hover {
+  color: #f5b1aa; /* 珊瑚色 */ /* 珊瑚の島 */ /* 暖かい珊瑚色へ */
+}
+.bottom{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* sns */
+.sns{
+  display: flex;
+  justify-content: flex-end;
+}
+.sn{
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Tourism */
+#Tourism .page-title{
+  text-align: center;
+  color: #b35f32;
+  font-size: 24px;
+  font-family: 'Fredericka the Great', cursive;
+}
+.container{
+  max-width: 1000px;
+  margin: 150px auto;
+  padding: 50px 0px;
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-item{
+  width: 100%;
+}
+.content-item{
+  width: 50%;
+}
+.image{
+  display:block;
+  max-width: 70%;
+  margin: 0px auto;
+  border-radius: 50%;
+}
+.tex{
+  padding: 50px;
+  font-weight: bold;
+}
+.heading{
+  font-family :
+	YuMincho,    /* Mac用 */
+	'Yu Mincho', /* Windows用 */
+	serif;
+}
+.tex .heading{
+  margin: 0px 0px 40px 0px;
+  font-size: 24px;
+  text-align: left;
+  color: #b35f32;
+}
+/* Activity */
+#Activity .page-title{
+  text-align: center;
+  font-size: 24px;
+  color: #b35f32;
+  font-family: 'Fredericka the Great', cursive;
+}
+/* Hotel */
+#Hotel .page-title{
+  text-align: center;
+  font-size: 24px;
+  color: #b35f32;
+  font-family: 'Fredericka the Great', cursive;
+}
+/* contact */
+.page1-title{
+  text-align: center;
+  font-size: 24px;
+  color: #b35f32;
+  font-family: 'Fredericka the Great', cursive;
+}
+.fr{
+  display: flex;
+  justify-content: center;
+  background-image: url();
+  width: 0 auto;
+}
+input[type="text"],
+input[type="mail"],
+textarea {
+  background: rgba(255,255,255,.5);
+  border: 1px #fff solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="submit"] {
+	background: #b35f32;
+	border: none;
+	color: #000000;
+	font-weight: bold;
+	width: 200px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	cursor: pointer;
+	outline: none;
+}
+input[type="submit"]:hover{
+  font-weight: bold;
+  color: #000000;
+  background: #f5b1aa;
+}
+/* sea */
+#sea .page-title{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fredericka the Great', cursive;
+}
+.palmtree{
+  margin-top: 100px;
+  text-align: center;
+}
+.wave{
+  width: 100%;
+}
+.wave .star{
+  max-width: 400px;
+  margin: 0px auto;
+  padding: 80px 0px;
+}
+.wrapper .coral{
+  padding: 50px;
+  text-align: center;
+}
+.coral1{
+  font-weight: bold;
+}
+.wrapper .coral .palm{
+  margin: 0px 0px 40px 0px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}

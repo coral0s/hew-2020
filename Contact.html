@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="none,noindex,nofollow">
+  <title>Coral Star Island</title>
+  <meta name="description" content="温暖な気候と美しい自然が残る人気の島">
+  <meta name="keywords" content="宮古島,沖縄,珊瑚,シュノーケル,ダイビング">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Ballet&family=Fredericka+the+Great&family=Long+Cang&display=swap');
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/coral_pagetop.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script>
+  $(function(){
+  $('a[href^="#"]').click(function() {
+  var speed = 800;
+  var href= $(this).attr("href");
+  var target = $(href == "#" || href == "" ? 'html' : href);
+  var position = target.offset().top;
+  $('body,html').animate({scrollTop:position}, speed, 'swing');
+  return false;
+  });
+  });
+  </script>
+</head>
+
+<body>
+  <div class="Contact">
+    <header class="header wrapper">
+      <h1><a href="index.html"><img class="logo" src="images/logo.jpg"
+        alt="coral･home"></a></h1>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="Tourism.html">Tourism</a></li>
+          <li><a href="Activity.html">Activity</a></li>
+          <li><a href="Hotel.html">Hotel</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    </div>
+
+    <div class="wrapper">
+        <h2 class="page1-title">Contact</h2>
+    </div>
+
+    <div class="fr">
+    <from action="example.php" method="post" name="contact-from">
+     ・お名前をご記入下さい<br>
+     <input type="text" id="name" size="30" placeholder="名字 名前">
+     <br>
+     <br>
+     <label for="email">・メールアドレスをご記入下さい</label><br>
+     <input type="mail" id="mail" name="your-mail" placeholder="mail">
+     <br>
+     <br>
+     ・性別をお選び下さい<br>
+     <input type="radio" name="gender" value="男" id="man" checked>
+     <label for="man">男</label>
+     <input type="radio" name="gender" value="女" id="woman">
+     <label for="woman">女</label>
+     <input type="radio" name="gender" value="その他" id="non-binary">
+     <label for="non-binary">その他</label>
+     <br>
+     <br>
+     ・好きな色をお選び下さい(複数選択可能)<br>
+     <input type="checkbox" name="color" value="blue" id="blue" checked>
+     <label for="blue">🟦</label>
+     <input type="checkbox" name="color" value="yellow" id="yellow">
+     <label for="yellow">🟨</label>
+     <input type="checkbox" name="color" value="red" id="red">
+     <label for="red">🟥</label>
+     <input type="checkbox" name="color" value="green" id="green">
+     <label for="green">🟩</label>
+     <br>
+     <br>
+     ・お好きな旅行先をお選び下さい(複数選択可能)<br>
+     <input type="checkbox" name="travel" value="日本国内" id="japan" checked>
+     <label for="japan">日本国内</label>
+
+     <input type="checkbox" name="travel" value="ヨーロッパ" id="europe">
+     <label for="europe">ヨーロッパ</label>
+
+     <input type="checkbox" name="travel" value="東南アジア" id="asia">
+     <label for="asia">東南アジア</label>
+     <br>
+     <br>
+     ・血液型をお選びください<br>
+     <select name="bloodtype">
+       <option value="A">A</option>
+       <option value="A">B</option>
+       <option value="A">O</option>
+       <option value="A">AB</option>
+     </select>
+     <br>
+     <br>
+     ・宜しければサイトの感想などお書きください<br>
+     <textarea cols="50" rows="10" name="message" placeholder="メッセージを入力"></textarea>
+     <br>
+     <br>
+     <a href="sea.html"><input type="submit" value="送信する"></a><br>
+
+    </form>
+  </div>
+
+
+    <footer>
+    <nav class="bottom">
+        <ul class="main1-nav">
+          <li><a href="Tourism.html">Tourism</a></li>
+          <li><a href="Activity.html">Activity</a></li>
+          <li><a href="Hotel.html">Hotel</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="sns">
+          <div class="sn"><a href="https://www.instagram.com/p/CLryFJqsvnG/?utm_source=ig_web_copy_link"><img src="images/Instagram.jpeg" alt=""></a></div>
+          <div class="sn"><a href="https://twitter.com/coralstarislan1/status/1364637197408768001?s=29"><img src="images/Twitter.jpeg" alt=""></a></div>
+        </div>
+    </nav>
+    <div class="solid">
+    </div>
+    <div class="wrapper">
+      <p><small>&copy; coral star island</small></p>
+    </div>
+    </footer>
+
+    <p class="nav-coral-pagetop"><a href="#">🌊</a></p>
+</body>
+
+</html>
